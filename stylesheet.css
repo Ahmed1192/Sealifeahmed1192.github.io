@@ -2,7 +2,21 @@ body , html{
     height:100%;
     margin:0;
 }
-container{
+.container{
 margin:auto;
 height:inherit;
+}
+.nav{
+
+    margin-top:50px;
+    height:75px;
+    background-color: red;
+}
+.slideshow{
+    background-image:url(Picture1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:1000px;
+    width:100%;
+    margin-top:0px;
 }
