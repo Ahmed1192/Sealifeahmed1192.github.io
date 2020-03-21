@@ -4,7 +4,7 @@ body , html{
 }
 .container{
 margin:auto;
-height:inherit;
+height:100%;
 }
 .nav{
 
@@ -12,7 +12,7 @@ height:inherit;
     height:75px;
     background-color: red;
 }
-.slideshow{
+.slideshow1{
     background-image:url(Picture1.jpg);
     background-repeat:no-repeat;
     background-size:cover;
