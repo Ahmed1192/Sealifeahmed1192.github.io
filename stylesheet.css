@@ -7,13 +7,13 @@ margin:auto;
 height:100%;
 }
 .nav{
-
-    margin-top:0px;
-    height:75px;
-    background-color: white;
+    position: absolute;
+    top:30px;
+    height:88px;
+    background-color:rgb(255,255,255,0.9);
+    width:100%
 }
 * {box-sizing:border-box}
-
 /* Slideshow container */
 .slideshow-container {
   width:100%;
@@ -31,12 +31,13 @@ height:100%;
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
+  height:100px; 
+  width: 55px;
   margin-top: -22px;
-  padding: 16px;
+  padding: 20px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 38px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -44,8 +45,14 @@ height:100%;
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  margin-left:97%;
+  margin-right:0px;
   border-radius: 3px 0 0 3px;
+}
+.prev{
+    margin-right: 0px;
+    margin-left:0px; 
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -76,13 +83,14 @@ height:100%;
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
+  height: 15px; 
   width: 15px;
-  margin: 0 2px;
+  margin: 0 5px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  
 }
 
 .active, .dot:hover {
@@ -105,4 +113,39 @@ height:100%;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    font-size:35px;
+    font-family: 'Agency FB', arial;
+    margin:80px;
+    display: inline-block;
+    margin-top:-15px;
+}
+#home{
+    margin-left:30px;
+    text-decoration: none;
+    color:white;
+    font-size:70px;
+    font-family: 'Agency FB', arial;    
+    background-color: aqua;
+    padding-bottom:15px;
+    padding-top:15px;
+    padding-right:15px;
+    padding-left:15px;
+    
+}
+img{
+    width:100%;
+}
+#wave{
+    position: absolute;
+    top: 700px;
+    width:2000px;
+}
+.nav a:hover{
+    background-color:rgba(255,0,0,0.5);
+    transition:0.6s;
+    width:100px;
 }
