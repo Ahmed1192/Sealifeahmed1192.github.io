@@ -9,9 +9,9 @@ height:100%;
 .nav{
     position: absolute;
     top:30px;
-    height:88px;
+    height:98px;
     background-color:rgb(255,255,255,0.9);
-    width:100%
+    width:100%;
 }
 * {box-sizing:border-box}
 /* Slideshow container */
@@ -114,14 +114,19 @@ height:100%;
   from {opacity: .4}
   to {opacity: 1}
 }
-.nav a{
+.pages{
     text-decoration: none;
     color:black;
     font-size:35px;
     font-family: 'Agency FB', arial;
-    margin:40px;
-    display: inline-block;
-    margin-top:-15px;
+    margin-left:50px;
+    display:inline-block ;
+    text-align: center;
+    padding-bottom:23px;
+    padding-top:34px;
+    padding-right:55px;
+    padding-left:55px
+    
 }
 #home{
     margin-left:30px;
@@ -129,8 +134,8 @@ height:100%;
     color:white;
     font-size:70px;
     font-family: 'Agency FB', arial;    
-    background-color: aqua;
-    padding-bottom:15px;
+    background-color: rgba(0, 185, 255, 1);
+    padding-bottom:25px;
     padding-top:15px;
     padding-right:15px;
     padding-left:15px;
@@ -144,8 +149,9 @@ img{
     top: 700px;
     width:2000px;
 }
-.nav a:hover{
-    background-color:rgba(255,0,0,0.5);
+.pages:hover{
+    background-color:rgba(0, 116, 255, 1);
     transition:0.6s;
-    width:400px;
+    color: white;
+    
 }
