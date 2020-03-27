@@ -36,31 +36,31 @@ function showSlides(n) {
 </head>
 <body>
     <div class="container">
-<div class="slideshow-container"><div class="mySlides fade">
-
+<div class="slideshow-container">
+    
+    <div class="mySlides fade">
     <img src="Picture1.jpg" style="width:100%">
-    
     </div>
-
+    
     <div class="mySlides fade">
-  
     <img src="Picture2.jpg" style="width:100%">
-    
     </div>
-
+    
     <div class="mySlides fade">
-
     <img src="Picture3.jpg" style="width:100%">
+    </div> 
     
-    </div> <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-<br>
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
+    <div>
+  <div style="position:absolute; top:850px; margin-left:890px;" class="dot" onclick="currentSlide(1)"></div>
+  <div style="position:absolute; top:850px; margin-left:930px;" class="dot" onclick="currentSlide(2)"></div>
+  <div style="position:absolute; top:850px; margin-left:970px;" class="dot" onclick="currentSlide(3)"></div>
 </div>
+        </div>
+<br>
+
  <div class="nav">
             <a id="home" href="home.html">HOME</a>
             <a class="pages" href="page2.html">Fish</a>
@@ -70,8 +70,27 @@ function showSlides(n) {
             <a class="pages" href="page6.html">Seals and penguins</a> 
         </div>
         <img id="wave" src="wave.png">
-        <hr>
         <div class="content">
+            <br>
+            <br>
+            <br>
+            <hr>
+        <p>RGB Value
+In CSS, a color can be specified as an RGB value, using this formula:
+
+rgb(red, green, blue)
+
+Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
+
+For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0.
+
+To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
+
+To display white, set all color parameters to 255, like this: rgb(255, 255, 255).
+
+Experiment by mixing the RGB values below:
+
+</p>
         </div>
         <div class="cite">
         </div>
