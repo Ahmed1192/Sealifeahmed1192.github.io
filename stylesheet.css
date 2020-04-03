@@ -222,7 +222,7 @@ hr{
     height:1171px;
     box-shadow:10px 10px 5px rgba(0, 0, 0, 0.6);
 }
-#infotext{
+.infotext{
     margin-left: 20px;
     margin-right: 40px;
     margin-top: 30px;
@@ -241,4 +241,10 @@ h1{
     color:white;
     padding: 20px;
     font-size:40px;
+}
+h2{
+    font-family: sans-serif;
+    color:white;
+    padding: 20px;
+    font-size:30px;
 }
