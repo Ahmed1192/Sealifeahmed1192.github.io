@@ -10,20 +10,23 @@ body{
 .container{
 margin:auto;
 height:100%;
+width:100%;
 }
 .nav{
     position: absolute;
     top:30px;
     height:98px;
     background-color:rgb(255,255,255,0.9);
-    width:100%;
+    width:1902px;
+    
 }
 * {box-sizing:border-box}
 /* Slideshow container */
 .slideshow-container {
-  width:100%;
+  width:1902px;
   position: relative;
   margin: auto;
+    margin-left: 0px;
 }
 
 /* Hide the images by default */
@@ -50,7 +53,7 @@ height:100%;
 
 /* Position the "next button" to the right */
 .next {
-  margin-left:97%;
+  margin-left:97.1%;
   margin-right:0px;
   border-radius: 3px 0 0 3px;
 }
@@ -129,7 +132,7 @@ height:100%;
     padding-bottom:23px;
     padding-top:34px;
     padding-right:55px;
-    padding-left:55px
+    padding-left:55px;
     
 }
 #home{
@@ -153,7 +156,7 @@ img{
 #wave{
     position: absolute;
     top: 800px;
-    width:100%;
+    width:1903px;
 }
 .pages:hover{
     background-color:rgba(0, 0,0, 1);
@@ -184,20 +187,20 @@ hr{
 }
 .linktext{
     display: inline;
-    font-size:25px;
+    font-size:20px;
     font-family: sans-serif;
     position: absolute;
-    margin-top:60px;
+    margin-top:120px;
     margin-left: 40px;
     text-align: left;
 }
 #linktext2{
     display: inline;
-    font-size:25px;
+    font-size:20px;
     font-family: sans-serif;
     position: absolute;
     margin-left: 100px;
-    margin-top:120px;
+    margin-top:200px;
     width: 1200px;
     text-align: left;
 }
@@ -233,8 +236,9 @@ hr{
     
 }
 .cite{
-    background-color: gainsboro;
+    background-color: rgba(0, 32, 101, 1);
     font-size:20px;
+    color :white;
 }
 h1{
     font-family: sans-serif;
@@ -248,3 +252,37 @@ h2{
     padding: 20px;
     font-size:30px;
 }
+h3{
+    font-family: sans-serif;
+    color:white;
+    padding: 20px;
+    font-size:30px;
+}
+h4{
+    font-family: sans-serif;
+    font-size:30px;
+    display: inline;
+    position: absolute;
+    margin-left: 40px;
+    margin-top:60px;
+    text-align: left;
+}
+h5{
+    font-family: sans-serif;
+    font-size:30px;
+    display: inline;
+    position: absolute;
+    margin-left: 100px;
+    margin-top:110px;
+    text-align: left;
+}
+h6{
+    font-family: sans-serif;
+    font-size:30px;
+    display: inline;
+    position: absolute;
+    margin-left: 40px;
+    margin-top:60px;
+    text-align: left;
+}
+
