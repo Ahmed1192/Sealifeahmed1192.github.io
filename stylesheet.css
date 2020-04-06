@@ -13,7 +13,7 @@ height:100%;
 width:100%;
 }
 .nav{
-    position: absolute;
+    position:absolute;
     top:30px;
     height:98px;
     background-color:rgb(255,255,255,0.9);
@@ -172,7 +172,9 @@ p{
     margin-right:200px;
 }
 hr{
-    max-width: 1600px;
+    width: 1600px;
+    margin-left:150px;
+    
     
 }
 #slide1{
@@ -193,6 +195,7 @@ hr{
     margin-top:120px;
     margin-left: 40px;
     text-align: left;
+    width: 1200px;
 }
 #linktext2{
     display: inline;
@@ -214,12 +217,13 @@ hr{
 .infoimg{
     margin-top:100px;
     position: relative;
+    width:1902px;
 }
 .info{
     background-color: rgba(0, 32, 101, 1);
     text-align: left;
-    position: absolute;
-    top:1329px;
+    position:absolute;
+    margin-top:-1175px;
     width: 600px;
     margin-left:100px;
     height:1171px;
@@ -239,6 +243,7 @@ hr{
     background-color: rgba(0, 32, 101, 1);
     font-size:20px;
     color :white;
+    width: 1902px;
 }
 h1{
     font-family: sans-serif;
@@ -285,4 +290,6 @@ h6{
     margin-top:60px;
     text-align: left;
 }
-
+.maintext{
+    
+}
