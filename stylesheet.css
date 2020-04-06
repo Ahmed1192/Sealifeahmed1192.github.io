@@ -2,6 +2,7 @@ body , html{
     height:100%;
     margin:0;
     padding:0;
+    width:100%;
 }
 body{
     width:100%; 
@@ -17,13 +18,13 @@ width:100%;
     top:30px;
     height:98px;
     background-color:rgb(255,255,255,0.9);
-    width:1902px;
+    width:100%;
     
 }
 * {box-sizing:border-box}
 /* Slideshow container */
 .slideshow-container {
-  width:1902px;
+  width:100%;
   position: relative;
   margin: auto;
     margin-left: 0px;
@@ -92,7 +93,7 @@ width:100%;
   cursor: pointer;
   height: 15px; 
   width: 15px;
-  background-color:#bbb ;
+  background-color:rgba(255,255,255,0.5) ;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -156,7 +157,7 @@ img{
 #wave{
     position: absolute;
     top: 800px;
-    width:1903px;
+    width:100%;
 }
 .pages:hover{
     background-color:rgba(0, 0,0, 1);
@@ -217,7 +218,7 @@ hr{
 .infoimg{
     margin-top:100px;
     position: relative;
-    width:1902px;
+    width:100%;
 }
 .info{
     background-color: rgba(0, 32, 101, 1);
@@ -243,7 +244,7 @@ hr{
     background-color: rgba(0, 32, 101, 1);
     font-size:20px;
     color :white;
-    width: 1902px;
+    width: 100%;
 }
 h1{
     font-family: sans-serif;
