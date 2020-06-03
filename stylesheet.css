@@ -2,23 +2,20 @@ body , html{
     height:100%;
     margin:0;
     padding:0;
-    width:1902px;
+    width:100%;
 }
-body{
-    width:1902px; 
-    height:100%;
-}
+
 .container{
 margin:auto;
 height:100%;
-width:1902px;
+width:100%;
 }
 .nav{
     position:absolute;
     top:30px;
     height:98px;
     background-color:rgb(255,255,255,0.9);
-    width:1902px;
+    width:100%;
     
 }
 * {box-sizing:border-box}
@@ -27,7 +24,8 @@ width:1902px;
   width:100%;
   position: relative;
   margin: auto;
-    margin-left: 0px;
+  margin-left: 0px;
+    
 }
 
 /* Hide the images by default */
@@ -91,12 +89,13 @@ width:1902px;
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px; 
-  width: 15px;
+  height: 2%; 
+  width: 1.2%;
   background-color:rgba(255,255,255,1) ;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  
 }
 
 .active,.dot:hover {
@@ -126,7 +125,7 @@ width:1902px;
     color:black;
     font-size:35px;
     font-family: 'Agency FB', arial;
-    margin-left:50px;
+    
     top:-15px;
     display:inline-block ;
     text-align: center;
@@ -151,13 +150,22 @@ width:1902px;
     padding-left:15px;
     
 }
+#maintext{
+    font-size:25px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left:10%;
+    margin-right: 10%
+    
+    
+}
 img{
     width:100%;
 }
 #wave{
     position: absolute;
-    top: 800px;
-    width:1903px;
+    margin-top:-15%;
+    width:100%;
 }
 .pages:hover{
     background-color:rgba(0, 0,0, 1);
@@ -173,8 +181,8 @@ p{
     margin-right:200px;
 }
 hr{
-    width: 1600px;
-    margin-left:150px;
+    margin-left:10%;
+    margin-right: 10%;
     
     
 }
@@ -182,9 +190,9 @@ hr{
     display: block;
 }
 .imglink{
-    width:500px;
+    width:35%;
     height:260px;
-    margin-left:100px;
+    margin-left:2%;
     margin-top: 50px;
     display:inline-block;
     background-color: rgba(0,0,0,1);
@@ -195,9 +203,9 @@ hr{
     font-family: sans-serif;
     position: absolute;
     margin-top:120px;
-    margin-left: 40px;
+    margin-left:2%;
     text-align: left;
-    width: 1200px;
+    width: 60%;
 }
 #linktext2{
     display: inline;
@@ -217,18 +225,18 @@ hr{
     display:inline-block;
 }
 .infoimg{
-    margin-top:100px;
+    margin-top:7%;
     position: relative;
-    max-width:1902px;
+    max-width:100%;
 }
 .info{
     background-color: rgba(0, 32, 101, 1);
     text-align: left;
     position:absolute;
-    top:1341px;
-    width: 600px;
+    top:145%;
+    width: 40%;
     margin-left:100px;
-    max-height:1171px;
+    max-height: 112%;
     box-shadow:10px 10px 5px rgba(0, 0, 0, 0.6);
 }
 .infotext{
@@ -270,10 +278,10 @@ h4{
     font-size:30px;
     display: inline;
     position: absolute;
-    margin-left: 40px;
+    margin-left: 2%;
     margin-top:60px;
     text-align: left;
-    width: 1100px;
+    width: 50%;
 }
 h5{
     font-family: sans-serif;
@@ -283,17 +291,17 @@ h5{
     margin-left: 100px;
     margin-top:110px;
     text-align: left;
-    width: 1100px;
+    width: 50%;
 }
 h6{
     font-family: sans-serif;
     font-size:30px;
     display: inline;
     position: absolute;
-    margin-left: 40px;
+    margin-left: 2%;
     margin-top:60px;
     text-align: left;
-    width: 1100px;
+    width: 50%;
 }
 .imglink:hover{
     
