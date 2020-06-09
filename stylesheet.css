@@ -12,8 +12,8 @@ width:100%;
 }
 .nav{
     position:absolute;
-    top:30px;
-    height:98px;
+    top:2%;
+    height:12.5%;
     background-color:rgb(255,255,255,0.9);
     width:100%;
     
@@ -123,31 +123,31 @@ width:100%;
     position: relative;
     text-decoration: none;
     color:black;
-    font-size:35px;
+    font-size:2.4vw;
     font-family: 'Agency FB', arial;
-    
-    top:-15px;
+    top:0%;
     display:inline-block ;
     text-align: center;
-    padding-bottom:21px;
-    padding-top:36px;
-    padding-right:55px;
-    padding-left:55px;
+    padding-bottom:1.6%;
+    padding-top:2.4%;
+    padding-right:5%;
+    padding-left:5%;
     
 }
+
 #home{
     position: relative;
-    top:-15px;
+    top:0%;
     margin-left:30px;
     text-decoration: none;
     color:white;
-    font-size:70px;
+    font-size:5vw;
     font-family: 'Agency FB', arial;    
     background-color: rgba(0, 205, 255, 1);
-    padding-bottom:25px;
-    padding-top:15px;
-    padding-right:15px;
-    padding-left:15px;
+    padding-bottom:1.7%;
+    padding-top:1%;
+    padding-right:1%;
+    padding-left:1%;
     
 }
 #maintext{
@@ -173,13 +173,7 @@ img{
     color: white;
     
 }
-p{
-    font-size:25px;
-    font-family: sans-serif;
-    text-align: center;
-    margin-left:200px;
-    margin-right:200px;
-}
+
 hr{
     margin-left:10%;
     margin-right: 10%;
@@ -247,16 +241,16 @@ hr{
     position: absolute;
     max-width:100%;
 }
+
 .info{
     background-color: rgba(0, 32, 101, 1);
     text-align: left;
-    position:absolute;
-    margin-top:%;
+    position: absolute;
+    margin-top:0%;
     width: 40%;
+    height:116% ;
     margin-left:5%;
-    height: 116.5%;
     box-shadow:10px 10px 5px rgba(0, 0, 0, 0.6); 
-    margin-bottom: ;
     
 }
 .infotext{
@@ -271,7 +265,7 @@ hr{
 }
 .cite{
     background-color: #2fa8ff;
-    font-size:20px;
+    font-size:1.5vw;
     color : white;
     width: 100%;
 }
